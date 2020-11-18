@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Flexbox</title>
+
+    <link rel="stylesheet" href="css/flexbox.css">
+</head>
+
+<body>
+
+    <h1>Propietats CSS Flexbox (Curs 2020-21)</h1>
+
+    <h2 class="title">Porpietats per les caixes</h2>
+
+        <h2>1. Flex-direction</h2>
+        <p class="descripcio">Possibles valors: <strong>row</strong>, column, row-reverse, column-reverse</p>
+        
+        <h3>1.1 Flex-direction: row</h3>
+        
+        <div id="contenidor1">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        <h3>1.2 Flex-direction: column</h3>
+        
+        <div id="contenidor2">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        <h3>1.3 Flex-direction: row-reverse</h3>
+        
+        <div id="contenidor3">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        <h3>1.4 Flex-direction: column-reverse</h3>
+        
+        <div id="contenidor4">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        <h2>2. Flex-wrap</h2>
+        <p class="descripcio">Possibles valors: wrap, <strong>nowrap</strong>, wrap-reverse</p>
+        
+        <h3>2.1 Flex-wrap: wrap</h3>
+        
+        <div id="contenidor5">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+            
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+        </div>
+        
+        <h3>2.2 Flex-wrap: nowrap</h3>
+        
+        <div id="contenidor6">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+            
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+        </div>
+        
+        <h3>2.3 Flex-wrap: wrap-reverse</h3>
+        
+        <div id="contenidor7">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+            
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+        </div>
+        
+        
+        
+        
+        
+        <h2>3. Justify-content</h2>
+        <p class="descripcio">Possibles valors: <strong>flex-start</strong>, flex-end, center, space-around, space-between</p>
+        
+        <h3>3.1 Justify-content: flex-start </h3>
+        
+        <div id="contenidor8">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        <h3>3.2 Justify-content: flex-end</h3>
+        
+        <div id="contenidor9">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        <h3>3.3 Justify-content: center</h3>
+        
+        <div id="contenidor10">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        <h3>3.4 Justify-content: space-around</h3>
+        
+        <div id="contenidor11">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        <h3>3.5 Justify-content: space-between</h3>
+        
+        <div id="contenidor12">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        <h2>4. Align-items</h2>
+        <p class="descripcio">Possibles valors: <strong>flex-start</strong>, flex-end, center, stretch, baseline</p>
+        
+        <h3>4.1 Align-items: flex-start </h3>
+        
+        <div id="contenidor13">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        <h3>4.2 Align-items: flex-end</h3>
+        
+        <div id="contenidor14">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        <h3>4.3 Align-items: center</h3>
+        
+        <div id="contenidor15">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        <h3>4.4 Align-items: stretch</h3>
+        
+        <div id="contenidor16">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        <h3>4.5 Align-items: baseline</h3>
+        
+        <div id="contenidor17">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img style="width: 85%" src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        <h2>5. Align-content</h2>
+        <p class="descripcio">Possibles valors: <strong>flex-start</strong>, flex-end, center, stretch, space-around, space-between</p>
+        
+        <h3>5.1 Align-content: flex-start </h3>
+        
+        <div id="contenidor18">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        <h3>5.2 Align-content: flex-end</h3>
+        
+        <div id="contenidor19">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        <h3>5.3 Align-content: center</h3>
+        
+        <div id="contenidor20">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        <h3>5.4 Align-content: stretch</h3>
+        
+        <div id="contenidor21">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        <h3>5.5 Align-content: space-around</h3>
+        
+        <div id="contenidor22">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img style="width: 85%" src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        <h3>5.6 Align-content: space-between</h3>
+        
+        <div id="contenidor23">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <h2 class="title">Porpietats dels elements</h2>
+
+        <h2>1. Flex-basis</h2>
+        
+        <div id="contenidor24">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        <h2>2. Flex-grow</h2>
+        
+        <div id="contenidor25">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        <h2>3. Flex-shrink</h2>
+        
+        <div id="contenidor26">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        <h2>4. Order</h2>
+        
+        <div id="contenidor27">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        
+        
+        
+        <h2>5. Align-content</h2>
+        <p class="descripcio">Possibles valors: <strong>flex-start</strong>, flex-end, center, stretch, baseline</p>
+        
+        <h3>Exemple1: Flex-start, Flex-end, center, stretch</h3>
+        
+        <div id="contenidor28">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        <h3>Exemple2: Baseline, Stretch, Baseline</h3>
+        
+        <div id="contenidor29">
+            <div class="items"><img src="img/invierno.jpg" alt="invierno"></div>
+            <div class="items"><img src="img/primvera.jpg" alt="primavera"></div>
+            <div class="items"><img src="img/verano.jpg" alt="verano"></div>
+            <div class="items"><img src="img/otonyo.jpg" alt="otonyo"></div>
+        </div>
+        
+        
+
+</body>
+
+</html>
